@@ -6,7 +6,7 @@ def percent_missing(matrix_data):
     val = matrix_data.isnull().sum()/len(matrix_data) * 100
     val = val[val > 0].sort_values()
     return val
-def reader(path):
+def reader(path = "C://Users//omoke//Downloads//UNZIP_FOR_NOTEBOOKS_FINAL//DATA//Ames_Housing_Feature_Description.txt"):
     """_summary_This simply reads in a file.
     """
     try:
