@@ -1,2 +1,1 @@
 # lin-regression
-Python
